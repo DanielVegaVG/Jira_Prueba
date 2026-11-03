@@ -1,0 +1,158 @@
+{
+  "fauna": {
+    "depredadores": [
+      {
+        "id": "rompe_medulas",
+        "nombre": "Rompe médulas",
+        "descripcion": "Depredador agresivo de tamaño mediano. Caza en las grietas profundas y ataca con una emboscada de carga. Sus branquias emiten un brillo rojo cuando está cazando.",
+        "peligrosidad": "Alta",
+        "bioma": "Grietas profundas",
+        "tamaño": "Mediano (3-4m)",
+        "dieta": "Carnívoro",
+        "imagen": "rompe_medulas.png"
+      },
+      {
+        "id": "leviatan_vacio",
+        "nombre": "Leviatán del vacío",
+        "descripcion": "Leviatán que patrulla los límites del mapa. Si cruzas la barrera roja, aparecerán múltiples ejemplares y te perseguirán hasta que regreses a la zona jugable.",
+        "peligrosidad": "Mortal",
+        "tamaño": "Gigante (>100m)",
+        "comportamiento": "Patrulla límites",
+        "dieta": "Desconocida",
+        "imagen": "leviatan_vacio.png"
+      },
+      {
+        "id": "parasito_bloom",
+        "nombre": "Parásito bloom",
+        "descripcion": "Criatura agresiva que nada activamente y se encuentra cerca de estructuras de Bloom. Atacan al jugador si se acerca demasiado a sus nidos.",
+        "peligrosidad": "Media",
+        "bioma": "Áreas infectadas por Bloom",
+        "tamaño": "Pequeño (1m)",
+        "dieta": "Simbionte",
+        "imagen": "parasito_bloom.png"
+      }
+    ],
+    "herbivoros_pasivos": [
+      {
+        "id": "geordi",
+        "nombre": "Geordi",
+        "descripcion": "Pez pequeño y comestible. Nada en cardúmenes cerca de las zonas de coral. Es una fuente básica de alimento en las primeras horas del juego.",
+        "comportamiento": "Pacífico",
+        "uso": "Comestible",
+        "tamaño": "Pequeño (0.3m)",
+        "bioma": "Arrecifes de coral",
+        "imagen": "geordi.png"
+      },
+      {
+        "id": "media_luna",
+        "nombre": "Media luna",
+        "descripcion": "Pez de tamaño mediano con forma de media luna. Su carne se puede cocinar o convertir en tiras para conservarla más tiempo.",
+        "comportamiento": "Pacífico",
+        "uso": "Comestible",
+        "tamaño": "Mediano (0.6m)",
+        "bioma": "Aguas superficiales",
+        "imagen": "media_luna.png"
+      }
+    ],
+    "leviatanes": [
+      {
+        "id": "leviatan_recolector",
+        "nombre": "Leviatán recolector",
+        "descripcion": "La criatura más grande del juego actualmente. Se parece a un pulpo gigante y patrulla el tercer bioma. Es extremadamente agresivo y ataca si detecta luz artificial. Puede agarrar vehículos.",
+        "peligrosidad": "Extrema",
+        "tamaño": "Gigante (más de 100m)",
+        "bioma": "Tercer bioma",
+        "recompensa_escaneo": "Biomod de eco sónico",
+        "dieta": "Carnívoro gigante",
+        "imagen": "leviatan_recolector.png"
+      }
+    ]
+  },
+  "minerales": [
+    {
+      "id": "atacamita",
+      "nombre": "Atacamita",
+      "descripcion": "Mineral que se encuentra cerca de estructuras alienígenas en el extremo este del mapa. Se usa para fabricar el Chip de interfaz Axum y la Localización por eco.",
+      "rareza": "Poco común",
+      "ubicacion": "Estructuras alienígenas (este)",
+      "uso": "Electrónica, chips",
+      "valor": "Alto",
+      "imagen": "atacamita.png"
+    },
+    {
+      "id": "litio",
+      "nombre": "Litio",
+      "descripcion": "Se encuentra en cuevas profundas bajo los grandes arcos de coral, aproximadamente a 500 metros al este de la Cápsula. Se usa para fabricar aleaciones resistentes y mejoras de profundidad para vehículos.",
+      "rareza": "Poco común",
+      "ubicacion": "Cuevas profundas, arcos de coral",
+      "uso": "Aleaciones, mejoras de profundidad",
+      "valor": "Medio",
+      "imagen": "litio.png"
+    },
+    {
+      "id": "cobre",
+      "nombre": "Cobre",
+      "descripcion": "Mineral fundamental para la electrónica básica. Se encuentra en afloramientos de piedra caliza en aguas poco profundas. Es de los primeros recursos que necesitarás para fabricar el equipo básico.",
+      "rareza": "Común",
+      "ubicacion": "Aguas poco profundas, paredes rocosas",
+      "uso": "Cables, electrónica básica, baterías",
+      "valor": "Bajo",
+      "imagen": "cobre.png"
+    },
+    {
+      "id": "cuarzo",
+      "nombre": "Cuarzo",
+      "descripcion": "Cristal transparente que se encuentra en el fondo marino y paredes rocosas. Es esencial para fabricar vidrio y componentes ópticos como lentes y pantallas.",
+      "rareza": "Común",
+      "ubicacion": "Fondo marino, cuevas superficiales",
+      "uso": "Vidrio, componentes ópticos, lentes",
+      "valor": "Bajo",
+      "imagen": "cuarzo.png"
+    },
+    {
+      "id": "oro",
+      "nombre": "Oro",
+      "descripcion": "Metal precioso de color amarillo brillante. Se encuentra en zonas más profundas y en formaciones volcánicas. Es necesario para fabricar componentes electrónicos avanzados y circuitos de alta gama.",
+      "rareza": "Poco común",
+      "ubicacion": "Zonas volcánicas, profundidades medias",
+      "uso": "Electrónica avanzada, circuitos, conectores",
+      "valor": "Alto",
+      "imagen": "oro.png"
+    }
+  ],
+  "plantas": [
+    {
+      "id": "saco_podrido_lucifer",
+      "nombre": "Saco podrido de lucifer",
+      "descripcion": "Planta bulbosa roja brillante que crece de la Raíz de Cuna. Se encuentra en aguas poco profundas (~70m al este de la Cápsula). Se puede procesar en Goma o Grasa en el Fabricador.",
+      "uso": "Goma, Grasa, Alimento",
+      "ubicacion": "Aguas poco profundas (este)",
+      "regeneracion": "Sí (rápida)",
+      "comestible": "Sí (procesado)",
+      "imagen": "saco_podrido_lucifer.png"
+    },
+    {
+      "id": "saco_acido",
+      "nombre": "Saco ácido",
+      "descripcion": "Planta con forma de bolsa que contiene un líquido corrosivo. Al explotar libera ácido que daña al jugador y criaturas cercanas. Se puede recolectar para obtener Ácido Fuerte, usado en la fabricación de baterías avanzadas y componentes químicos.",
+      "uso": "Ácido Fuerte, componentes químicos, baterías",
+      "ubicacion": "Cuevas profundas, zonas de hidrotermas",
+      "peligro": "Explosivo - causa daño por ácido",
+      "regeneracion": "Sí (lenta)",
+      "imagen": "saco_acido.png"
+    }
+  ],
+  "vehiculos": [
+    {
+      "id": "renacuajo",
+      "nombre": "Renacuajo (Base)",
+      "descripcion": "Sumergible monoplaza modular. Es el primer vehículo construible. Tiene 4 ranuras de mejora y una velocidad de aceleración media de 1000 cm/s².",
+      "tipo": "Sumergible",
+      "capacidad": "1 tripulante",
+      "mejoras": "4 ranuras",
+      "velocidad_max": "1000 cm/s²",
+      "profundidad_max": "200m",
+      "imagen": "renacuajo.png"
+    }
+  ]
+}
